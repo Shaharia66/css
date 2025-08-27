@@ -1,0 +1,48 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 2s; */
+    /* transition: all 2s steps(5) 2s; */
+    /* transform: rotate(50deg); */
+    /* rotate: 45deg; */
+    /* transition: all 2s steps(5) 2s; */
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 4;
+    animation-direction: normal;
+}
+/* div:hover{
+    background-color: red;
+    color: azure;
+    font-size: 20px;
+    transform: scale(2);
+}
+div:active{
+    background-color: rgb(28, 18, 39);
+} */
+@keyframes animation{
+    from{ 
+        left: 0px;
+        background-color: blueviolet;
+        font-size:20px
+    }
+    50%{
+        left: 150px;
+        background-color: yellow;
+    }
+    to{ 
+        left: 300px;
+        background-color: brown;
+        font-size:40px
+    }
+}
