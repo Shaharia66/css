@@ -1,0 +1,26 @@
+h1{
+    height:200px;
+    width:200px;
+    text-align: center;
+    background-color: aqua;
+    border:3px solid pink;
+}
+div{
+    height:200px;
+    width:200px;
+    background-color: blue;
+    border-width: 3px;
+    border-color:red;
+    border-style:double;
+}
+.com{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    border:3px solid pink;
+    /* padding-left: 10px;
+    padding: 25px; */
+    /* padding:3px 4px 5px 6px; */
+    text-align:center;
+    padding: 25px;
+    margin: 25px;
+}

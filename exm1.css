@@ -1,17 +1,19 @@
-div{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    border: 20px solid blue;
-    border-top:20px solid black;
-    animation: spin 2s ease-in-out 1s 3 normal;
-    
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
 }
-@keyframes spin {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
+div{
+    background-color: #0f1111;
+    height: 60px;
+}
+#logo{
+    color: rgb(196, 135, 14);
+    font-size: 25px;
+}
+button{
+    background-color: rgb(196, 135, 14);
+}
+a{
+    margin-right: 200px;
 }
